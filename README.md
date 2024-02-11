@@ -25,6 +25,5 @@ print('hello')
 
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
+<img width="434" alt="Screenshot 2024-02-11 151830" src="https://github.com/Mohammadbk93/projects/assets/142314288/b50426c6-0b42-429a-bf22-1a37e4046123">
 
-<img width="434" alt="Screenshot 2024-02-11 151830" <img width="842" alt="Screenshot 2024-02-11 152425" src="https://github.com/Mohammadbk93/projects/assets/142314288/a66e8d4a-6895-4a5a-bbac-68881c4f2668">
-src="https://github.com/Mohammadbk93/projects/assets/142314288/fc919bb2-ff95-48c9-aee1-f9196352b31e">
