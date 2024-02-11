@@ -1,0 +1,44 @@
+from art import logo, vs
+import random
+from game_data import data
+from replit import clear
+
+def get_follower_count(person)
+    return person['follower_count']
+
+def game()
+    print(logo)
+    score = 0
+
+    while True
+        person_a = random.choice(data)
+        person_b = random.choice(data)
+        if person_a==person_b
+          person_b= random.choice(data)
+
+        print(fCompare A {person_a['name']}, {person_a['description']}, from {person_a['country']})
+        print(vs)
+        print(fAgainst B {person_b['name']}, {person_b['description']}, from {person_b['country']})
+
+        guess = input(Who has more followers Type 'A' or 'B' ).lower()
+
+        if guess == 'a'
+            if get_follower_count(person_a)  get_follower_count(person_b)
+                score += 1
+                print(fCorrect! Your current score is {score}.)
+                clear()
+            else
+                print(fWrong! Your final score is {score}.)
+                break
+        elif guess == 'b'
+            if get_follower_count(person_b)  get_follower_count(person_a)
+                score += 1
+                print(fCorrect! Your current score is {score}.)
+                clear()
+            else
+                print(fWrong! Your final score is {score}.)
+                break
+        else
+            print(Invalid input. Please type 'A' or 'B'.)
+
+game()
