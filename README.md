@@ -27,3 +27,4 @@ print('hello')
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
 <img width="434" alt="Screenshot 2024-02-11 151830" src="https://github.com/Mohammadbk93/projects/assets/142314288/b50426c6-0b42-429a-bf22-1a37e4046123">
 
+<img width="842" alt="Screenshot 2024-02-11 152425" src="https://github.com/Mohammadbk93/projects/assets/142314288/3ea88c98-06a5-4c59-b719-9ce9e091d6e9">
