@@ -6,7 +6,7 @@ These are my projects
 These are my blockchain projects
 
 ### [Sha256](https://github.com/Mohammadbk93/projects/blob/main/Project%20SHA256%20%26%20RSA-Copy1.ipynb)
-In this project I used `sha256`
+In this project I used `sha256 and RSA`
 
 * bullet point
 * bullet point 2
