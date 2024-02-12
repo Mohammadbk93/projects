@@ -18,7 +18,6 @@ This project involves the development of a Python program that combines two esse
 print('hello')
 ```
 ____________________________________________________________________________________________________________
-# projects
 
 ### [Random Number Generator](https://github.com/Mohammadbk93/projects/blob/main/Project%20SHA256%20%26%20RSA-Copy1.ipynb)
 ### [Caffe machine](https://github.com/Mohammadbk93/projects/blob/main/Coffe%20machine/main.py)
