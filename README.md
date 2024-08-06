@@ -14,7 +14,8 @@ ________________________________________________________________________________
 Time_Series_Forecasting_in_Tensorflow
 
 ### [TimeSeries_Forcasting](https://github.com/Mohammadbk93/projects/blob/main/time_series_forecasting_in_tensorflow.Project.ipynb)
-
+Aim of the Project:
+The aim of this project is to develop and compare various deep learning models for time series forecasting using TensorFlow. The focus is on predicting future values of a dataset by training models on historical data and evaluating their performance based on Mean Absolute Error (MAE).
 
 <img width="484" alt="Screenshot 2024-08-06 130905" src="https://github.com/user-attachments/assets/32b84030-7d81-4e74-a4ef-53bf1e90887f">
 ____________________________________________________________________________________________________________
