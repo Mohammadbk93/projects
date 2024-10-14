@@ -22,8 +22,11 @@ ________________________________________________________________________________
 
 
 ### [ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/HAR_MotionCapture_Thesis.ipynb)
-Aim of the Project:
-The aim of this project is to develop a robust Human Activity Recognition (HAR) system using advanced machine learning (ML) and deep learning (DL) techniques, such as LSTM, CNN-LSTM, and RandomForestClassifier, to improve motion recognition accuracy in sports, rehabilitation, and ergonomic settings. The system addresses key challenges, including feature extraction, data imbalance, noise in sensor data, and the integration of temporal and spatial features, with the goal of enhancing real-time performance and robustness in real-world applications.
+Project Aim:
+The goal of this project was to develop an advanced Human Activity Recognition (HAR) system using both traditional and deep learning models, with a focus on CNN-LSTM architecture. The system aimed to improve the accuracy and robustness of motion recognition in sports, rehabilitation, and ergonomics by addressing key challenges such as feature extraction, data imbalance, and noise in sensor data. Through the use of hybrid models like CNN-LSTM, the project successfully integrated temporal and spatial features, leading to significant performance improvements.
+
+Results:
+The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effectiveness in motion recognition tasks compared to traditional ML models. This approach significantly enhanced real-time motion recognition capabilities, particularly in complex scenarios involving diverse activities and sensor data.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/28f78d73-23f7-4e9e-bcec-85cbea27bf5c" width="300" height="300">
