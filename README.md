@@ -25,11 +25,11 @@ ________________________________________________________________________________
 Aim of the Project:
 The aim of this project is to develop a robust Human Activity Recognition (HAR) system using advanced machine learning (ML) and deep learning (DL) techniques, such as LSTM, CNN-LSTM, and RandomForestClassifier, to improve motion recognition accuracy in sports, rehabilitation, and ergonomic settings. The system addresses key challenges, including feature extraction, data imbalance, noise in sensor data, and the integration of temporal and spatial features, with the goal of enhancing real-time performance and robustness in real-world applications.
 
-<img width="360" alt="CNN-LSTM acc final 95%" src="https://github.com/user-attachments/assets/ad5d705d-4072-4718-bfd1-32f78e224dcb">
-
-![CNN-LSTM loss curve 95%](https://github.com/user-attachments/assets/bae07663-c0ea-4c6e-9f89-4201ece5f27b)
-
-<img width="530" alt="CNN-LSTM acc final 95%" src="https://github.com/user-attachments/assets/76480683-5005-45ef-93af-6762c175d6ad">
+<p align="center">
+  <img src="[path_to_your_image_1](https://github.com/user-attachments/assets/ad5d705d-4072-4718-bfd1-32f78e224dcb)" width="200" height="200">
+  <img src="[path_to_your_image_2](https://github.com/user-attachments/assets/bae07663-c0ea-4c6e-9f89-4201ece5f27b)" width="200" height="200">
+  <img src="https://github.com/user-attachments/assets/76480683-5005-45ef-93af-6762c175d6ad" width="200" height="200">
+</p>
 
 ____________________________________________________________________________________________________________
 
