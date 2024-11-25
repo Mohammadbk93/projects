@@ -35,6 +35,29 @@ The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effecti
 </p>
 
 ____________________________________________________________________________________________________________
+## API Integration and Automation
+
+### [Stock_Market_and_News_API](https://github.com/Mohammadbk93/projects/blob/main/Stock_Market_and_News_API.ipynb)
+This project integrates two APIs—Alpha Vantage (for stock market data) and News API (for retrieving related news articles) to monitor stock performance and fetch relevant news articles when certain thresholds are met.
+
+Learning purposes:
+- Combining multiple APIs in a single workflow to build a cohesive project.
+- Handling API responses and parsing JSON data to extract actionable insights.
+- Working with conditional logic to trigger specific actions based on data thresholds.
+- The basics of working with external APIs for real-time data integration.
+
+____________________________________________________________________________________________________________
+## OAuth 2.0 Authentication and Automation
+
+### [Google Sheets Integration with OAuth 2.0](https://github.com/Mohammadbk93/projects/blob/main/Google_Sheets_Automation_with_Python.ipynb)
+This project focuses on automating calculations and updates in a Google Sheet using the Google Sheets API and Python. It demonstrates how to programmatically interact with Google Sheets to perform repetitive tasks efficiently. The project uses OAuth 2.0 for secure API authentication and showcases efficient, automated data processing workflows.
+
+Learning purposes:
+- Working with the Google Sheets API for data automation.
+- Understanding and implementing OAuth 2.0 for secure authentication.
+- Automating repetitive tasks using Python.
+____________________________________________________________________________________________________________
+
 
 ### [Random Number Generator](https://github.com/Mohammadbk93/projects/blob/main/Project%20SHA256%20%26%20RSA-Copy1.ipynb)
 ### [Caffe machine](https://github.com/Mohammadbk93/projects/blob/main/Coffe%20machine/main.py)
@@ -49,3 +72,4 @@ ________________________________________________________________________________
 ```
 print('hello')
 ```
+____________________________________________________________________________________________________________
