@@ -3,6 +3,55 @@ These are my projects:
 
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
+# 🦠 COVID-19 Data Analysis & Monte Carlo Integration  
+
+## 📌 Project Overview  
+This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Python, Pandas, NumPy, Dask, and PySpark**. It includes:  
+- **Exploratory Data Analysis (EDA)**: Extracting trends, case growth, and country-wise infection patterns.  
+- **Monte Carlo Integration**: Estimating function integrals using **Dask & PySpark** for parallel computing.  
+- **Optimized Data Processing**: Leveraging distributed computing to handle large datasets efficiently.  
+
+---
+
+## 🚀 Features  
+✅ **Data Preprocessing**: Cleaning and transforming large COVID-19 datasets.  
+✅ **Exploratory Data Analysis (EDA)**: Identifying trends and patterns in case growth.  
+✅ **Monte Carlo Integration**: Estimating integrals using **random sampling techniques**.  
+✅ **Parallel Computing**: Using **Dask & PySpark** for scalable and faster computations.  
+✅ **Data Visualization**: Plotting **Monte Carlo simulations** to illustrate results.  
+
+---
+
+## 🛠️ Technologies Used  
+- **Python** (Data analysis & scripting)  
+- **Pandas & NumPy** (Data processing & statistical analysis)  
+- **Dask & PySpark** (Parallel computing for large datasets)  
+- **Matplotlib & Seaborn** (Data visualization)  
+
+---
+
+## 📂 Dataset  
+- The dataset contains **COVID-19 case records** across multiple countries.  
+- It includes **dates, locations, cumulative cases, and recovery rates**.  
+
+---
+
+## 📜 Methodology  
+1. **Data Cleaning & Processing** 🧹  
+   - Imported the dataset using **Pandas** and handled missing values.  
+   - Filtered country-specific data for targeted analysis.  
+
+2. **Exploratory Data Analysis (EDA)** 📊  
+   - Identified **worst-case infection days** and **country-wise trends**.  
+   - Analyzed seasonal patterns in case spikes.  
+
+3. **Monte Carlo Integration** 🎲  
+   - Used **random sampling techniques** to estimate function integrals.  
+   - Parallelized computations using **Dask & PySpark** for scalability.  
+
+4. **Visualization & Insights** 📉  
+   - Created **scatter plots** to visualize Monte Carlo estimations.  
+   - Plotted **COVID-19 case distribution trends** over time.  
 
 ____________________________________________________________________________________________________________
 ## Blockchain
