@@ -1,7 +1,7 @@
 
 ## These are my projects:
 
-### [Master's Thesis: ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/HAR_MotionCapture_Thesis.ipynb)
+### [Master's Thesis: ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)
 Project Aim:
 The goal of this project was to develop an advanced Human Activity Recognition (HAR) system using both traditional and deep learning models, with a focus on CNN-LSTM architecture. The system aimed to improve the accuracy and robustness of motion recognition in sports, rehabilitation, and ergonomics by addressing key challenges such as feature extraction, data imbalance, and noise in sensor data. Through the use of hybrid models like CNN-LSTM, the project successfully integrated temporal and spatial features, leading to significant performance improvements.
 
