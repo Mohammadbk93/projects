@@ -1,5 +1,44 @@
 
-These are my projects:
+## These are my projects:
+
+### [Master's Thesis: ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/HAR_MotionCapture_Thesis.ipynb)
+Project Aim:
+The goal of this project was to develop an advanced Human Activity Recognition (HAR) system using both traditional and deep learning models, with a focus on CNN-LSTM architecture. The system aimed to improve the accuracy and robustness of motion recognition in sports, rehabilitation, and ergonomics by addressing key challenges such as feature extraction, data imbalance, and noise in sensor data. Through the use of hybrid models like CNN-LSTM, the project successfully integrated temporal and spatial features, leading to significant performance improvements.
+
+Results:
+The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effectiveness in motion recognition tasks compared to traditional ML models. This approach significantly enhanced real-time motion recognition capabilities, particularly in complex scenarios involving diverse activities and sensor data.
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/28f78d73-23f7-4e9e-bcec-85cbea27bf5c" width="300" height="300">
+  <img src="https://github.com/user-attachments/assets/31470d3e-77f8-46f7-968f-427aeb2bbd6e" width="300" height="300">
+  <img src="https://github.com/user-attachments/assets/76480683-5005-45ef-93af-6762c175d6ad" width="300" height="300">
+</p>
+
+____________________________________________________________________________________________________________
+### [Biomedical Signal Processing: PPG-Based Heart Condition Detection](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)  
+
+## 📌 Overview  
+This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal** vs **Myocardial Infarction (MI)** conditions using **Machine Learning (Random Forest)** and **Deep Learning (LSTM)**. The dataset comes from the **UCI Machine Learning Repository**.  
+
+## 📊 Dataset  
+- **Source**: [UCI Machine Learning Repository]  
+- **Type**: Time-series PPG signals  
+- **Features**: 2000 signal amplitudes per sample  
+- **Labels**:  
+  - **Normal** (Healthy)  
+  - **MI (Heart Attack Risk)**  
+
+## 🛠️ Methods & Techniques  
+✅ **Signal Processing**: Butterworth filter for noise removal  
+✅ **Feature Engineering**: Extracted Mean, StdDev, Min, Max, Skewness, Kurtosis  
+✅ **Machine Learning**: **Random Forest** 
+✅ **Deep Learning**: **Bi-LSTM with Regularization** 
+
+## 📌 Results & Insights  
+- **Random Forest slightly outperformed LSTM** in accuracy.  
+- **Filtering improved data quality**, enhancing model performance.  
+- **LSTM is better suited for long-term sequence learning** but requires tuning.  
+____________________________________________________________________________________________________________
 
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
@@ -70,20 +109,7 @@ The aim of this project is to develop and compare various deep learning models f
 ____________________________________________________________________________________________________________
 
 
-### [ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/HAR_MotionCapture_Thesis.ipynb)
-Project Aim:
-The goal of this project was to develop an advanced Human Activity Recognition (HAR) system using both traditional and deep learning models, with a focus on CNN-LSTM architecture. The system aimed to improve the accuracy and robustness of motion recognition in sports, rehabilitation, and ergonomics by addressing key challenges such as feature extraction, data imbalance, and noise in sensor data. Through the use of hybrid models like CNN-LSTM, the project successfully integrated temporal and spatial features, leading to significant performance improvements.
 
-Results:
-The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effectiveness in motion recognition tasks compared to traditional ML models. This approach significantly enhanced real-time motion recognition capabilities, particularly in complex scenarios involving diverse activities and sensor data.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/28f78d73-23f7-4e9e-bcec-85cbea27bf5c" width="300" height="300">
-  <img src="https://github.com/user-attachments/assets/31470d3e-77f8-46f7-968f-427aeb2bbd6e" width="300" height="300">
-  <img src="https://github.com/user-attachments/assets/76480683-5005-45ef-93af-6762c175d6ad" width="300" height="300">
-</p>
-
-____________________________________________________________________________________________________________
 ## API Integration and Automation
 
 ### [Stock_Market_and_News_API](https://github.com/Mohammadbk93/projects/blob/main/Stock_Market_and_News_API.ipynb)
