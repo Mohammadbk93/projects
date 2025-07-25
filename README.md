@@ -61,7 +61,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 
 ---
 
-## 🛠️ Technologies Used  
+## 🛠 Technologies Used  
 - **Python** (Data analysis & scripting)  
 - **Pandas & NumPy** (Data processing & statistical analysis)  
 - **Dask & PySpark** (Parallel computing for large datasets)  
@@ -75,7 +75,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 
 ---
 
-## 📜 Methodology  
+##  Methodology  
 1. **Data Cleaning & Processing** 🧹  
    - Imported the dataset using **Pandas** and handled missing values.  
    - Filtered country-specific data for targeted analysis.  
