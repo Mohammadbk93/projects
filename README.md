@@ -28,7 +28,7 @@ This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal*
   - **Normal** (Healthy)  
   - **MI (Heart Attack Risk)**  
 
-## 🛠️ Methods & Techniques  
+##  Methods & Techniques  
 ✅ **Signal Processing**: Butterworth filter for noise removal  
 ✅ **Feature Engineering**: Extracted Mean, StdDev, Min, Max, Skewness, Kurtosis  
 ✅ **Machine Learning**: **Random Forest** 
