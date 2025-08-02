@@ -17,7 +17,7 @@ The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effecti
 ____________________________________________________________________________________________________________
 ### [Biomedical Signal Processing: PPG-Based Heart Condition Detection](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)  
 
-## 📌 Overview  
+##  Overview  
 This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal** vs **Myocardial Infarction (MI)** conditions using **Machine Learning (Random Forest)** and **Deep Learning (LSTM)**. The dataset comes from the **UCI Machine Learning Repository**.  
 
 ## 📊 Dataset  
