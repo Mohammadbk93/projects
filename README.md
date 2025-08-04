@@ -69,7 +69,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 
 ---
 
-## 📂 Dataset  
+##  Dataset  
 - The dataset contains **COVID-19 case records** across multiple countries.  
 - It includes **dates, locations, cumulative cases, and recovery rates**.  
 
