@@ -107,9 +107,6 @@ The aim of this project is to develop and compare various deep learning models f
 
 <img width="484" alt="Screenshot 2024-08-06 130905" src="https://github.com/user-attachments/assets/32b84030-7d81-4e74-a4ef-53bf1e90887f">
 ____________________________________________________________________________________________________________
-
-
-
 ## API Integration and Automation
 
 ### [Stock_Market_and_News_API](https://github.com/Mohammadbk93/projects/blob/main/Stock_Market_and_News_API.ipynb)
@@ -132,8 +129,8 @@ Learning purposes:
 - Understanding and implementing OAuth 2.0 for secure authentication.
 - Automating repetitive tasks using Python.
 ____________________________________________________________________________________________________________
-
-# Product Matching and Price Comparison
+## Product Matching and Price Comparison
+### [Product Matching and Price Comparison](https://github.com/Mohammadbk93/projects/blob/main/Assignment_task%20(1).ipynb)
 
 This project identifies similar products across two datasets using text similarity and compares their prices to detect inconsistencies or duplicates.
 
