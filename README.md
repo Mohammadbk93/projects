@@ -133,57 +133,32 @@ Learning purposes:
 - Automating repetitive tasks using Python.
 ____________________________________________________________________________________________________________
 
-# 🔍 Product Matching & Price Comparison with Fuzzy Similarity
+# Product Matching and Price Comparison
 
-This project focuses on matching products across two datasets using **text similarity** and comparing their **price differences**. It’s useful for identifying pricing inconsistencies or duplicates across platforms or vendors.
+This project identifies similar products across two datasets using text similarity and compares their prices to detect inconsistencies or duplicates.
 
-## 📌 Objective
+## Objective
 
-- Match similar products from `df1` and `df2` using fuzzy string similarity
-- Filter high-confidence matches (similarity > threshold)
-- Analyze and visualize price differences
-- Export matched products with similarity and price gap for review
+- Match products from two sources based on name similarity
+- Calculate and analyze price differences
+- Visualize matches and pricing trends
+- Export results for further review
 
-## 🧰 Tools & Libraries
+## Key Steps
 
-- Python (Pandas, NumPy)
-- Fuzzy matching (`fuzzywuzzy`, `sklearn`, or `RapidFuzz`)
-- Matplotlib / Seaborn for visualization
-- Jupyter Notebook
+1. Clean and preprocess product names
+2. Compute similarity scores (e.g., fuzzy matching)
+3. Filter matches above a similarity threshold (e.g., 70%)
+4. Calculate absolute price differences
+5. Visualize results with histograms and bar charts
+6. Export matched results to CSV
 
-## 🔎 Key Steps
+## Output
 
-1. **Preprocessing**: Clean product names and remove irrelevant tokens.
-2. **Similarity Calculation**: Use fuzzy string matching to compute similarity scores between product names.
-3. **Filtering**: Keep matches with similarity > 70 (adjustable threshold).
-4. **Price Analysis**:
-   - Compute `price_diff = |df1_price - df2_price|`
-   - Identify large discrepancies
-5. **Visualization**:
-   - Histogram of price distributions
-   - Bar chart of top matches by similarity
-6. **Export Results**:
-   - Save all matched pairs with price difference to CSV
+- `all_matched_price_diff.csv` – full list of matched products with price differences
+- Plots showing similarity and price distributions
 
-## 📁 Output
-
-- `all_matched_price_diff.csv`: all matched products with similarity and price gaps
-- Clean, interpretable plots for data understanding
-- Ready-to-use dataframe for further business insights
-
-## ✅ Example Use Cases
-
-- Detect overpriced items between suppliers
-- Spot duplicates or slight variations in product catalogs
-- Price monitoring and competitive analysis
-
-## 📊 Sample Visualization
-
-![Top Matches](./images/top_matched_products.png) <!-- optional if you add plots -->
-
----
-
-*Developed as part of a product matching & pricing analysis assignment.*
+This project was developed for an assignment involving product comparison and data analysis.
 
 ____________________________________________________________________________________________________________
 
