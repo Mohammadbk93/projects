@@ -76,7 +76,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 ---
 
 ##  Methodology  
-1. **Data Cleaning & Processing** 🧹  
+1. **Data Cleaning & Processing**  
    - Imported the dataset using **Pandas** and handled missing values.  
    - Filtered country-specific data for targeted analysis.  
 
