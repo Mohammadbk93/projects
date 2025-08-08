@@ -84,7 +84,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
    - Identified **worst-case infection days** and **country-wise trends**.  
    - Analyzed seasonal patterns in case spikes.  
 
-3. **Monte Carlo Integration** 🎲  
+3. **Monte Carlo Integration**   
    - Used **random sampling techniques** to estimate function integrals.  
    - Parallelized computations using **Dask & PySpark** for scalability.  
 
