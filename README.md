@@ -132,7 +132,13 @@ ________________________________________________________________________________
 ## Product Matching and Price Comparison
 ### [Product Matching and Price Comparison](https://github.com/Mohammadbk93/projects/blob/main/Assignment_task%20(1).ipynb)
 
-This project identifies similar products across two datasets using text similarity and compares their prices to detect inconsistencies or duplicates.
+This project aims to streamline the process of detecting product overlaps between two datasets by combining **text similarity analysis** with **price comparison**.  
+It is designed for scenarios such as e-commerce catalog cleaning, marketplace price monitoring, and duplicate product detection.
+
+By comparing product names, brands, and prices, the system identifies items that are likely the same but may have **different listings or inconsistent prices**.
+
+<img width="482" height="162" alt="Matching product" src="https://github.com/user-attachments/assets/856dff6b-ddc3-48ac-8b0c-fbee8d2727c0" />
+
 
 ## Objective
 
