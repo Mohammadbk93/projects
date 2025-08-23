@@ -44,7 +44,7 @@ ________________________________________________________________________________
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
 # 🦠 COVID-19 Data Analysis & Monte Carlo Integration  
 
-## 📌 Project Overview  
+##  Project Overview  
 This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Python, Pandas, NumPy, Dask, and PySpark**. It includes:  
 - **Exploratory Data Analysis (EDA)**: Extracting trends, case growth, and country-wise infection patterns.  
 - **Monte Carlo Integration**: Estimating function integrals using **Dask & PySpark** for parallel computing.  
