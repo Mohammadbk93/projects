@@ -39,11 +39,7 @@ This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal*
 - **Filtering improved data quality**, enhancing model performance.  
 - **LSTM is better suited for long-term sequence learning** but requires tuning.  
 ____________________________________________________________________________________________________________
-### [Real-Time Athlete Fatigue Detection & Recovery Monitoring](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)  
-
-
-### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
-
+### [Real-Time Athlete Fatigue Detection & Recovery Monitoring](https://github.com/Mohammadbk93/projects/blob/main/athlete_performance_data_ipynb_.ipynb)  
 
 ____________________________________________________________________________________________________________
 ## Data analysis
