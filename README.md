@@ -41,6 +41,34 @@ This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal*
 ____________________________________________________________________________________________________________
 ### [Real-Time Athlete Fatigue Detection & Recovery Monitoring](https://github.com/Mohammadbk93/projects/blob/main/athlete_performance_data_ipynb_.ipynb)  
 
+# 🧠 Biomedical Signal Feature Extraction Pipeline (Dask + NeuroKit2)
+
+This project implements a scalable and memory-efficient pipeline for extracting physiological features from multi-modal biosignals—**ECG, PPG, PCG, and Accelerometer (ACC)**—collected during fatigue monitoring experiments. The pipeline leverages **Dask** for parallel processing and **NeuroKit2** for biomedical signal analysis, enabling real-time or large-scale offline feature generation.
+
+## 📌 Project Highlights
+
+- ✅ **Signal Types**: ECG (Electrocardiogram), PPG (Photoplethysmogram), PCG (Phonocardiogram), Accelerometer (az-axis).
+- ⚙️ **Features Extracted**:
+  - **ECG** → HR (Heart Rate), RMSSD, SDNN, LF/HF ratio.
+  - **PPG** → SpO₂ mean & std across 4 channels (carotid & brachial).
+  - **(Optional)** PCG → Energy & Entropy statistics (e.g., mean, std, skew).
+  - **(Optional)** ACC → Variance & RMS of body motion.
+
+- 🧠 **Fatigue Classification Ready**: Each feature vector is associated with a `FatigueLabel` (0 = no fatigue, 1 = fatigue).
+- 🚀 **Parallel & Efficient**: Uses `Dask` to prevent RAM crashes during large-scale windowed processing.
+- 📂 **Input Data**:
+  - Cleaned signals (Kalman filtered `.parquet`).
+  - Demographics & fatigue labels (`.csv`).
+- 🧪 **Output**: Feature table (`df_features`) per 5-second window for use in ML models (e.g., LSTM, Random Forests).
+
+## 📊 Example Use Case
+
+- Monitor athlete fatigue in real time using wearable devices.
+- Generate ML-ready feature sets from millions of signal samples.
+- Extendable to rehabilitation, ergonomics, or telemedicine applications.
+
+
+
 ____________________________________________________________________________________________________________
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
