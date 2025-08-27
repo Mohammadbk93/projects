@@ -54,7 +54,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
   - **(Optional)** PCG → Energy & Entropy statistics (e.g., mean, std, skew).
   - **(Optional)** ACC → Variance & RMS of body motion.
 
-- 🧠 **Fatigue Classification Ready**: Each feature vector is associated with a `FatigueLabel` (0 = no fatigue, 1 = fatigue).
+-  **Fatigue Classification Ready**: Each feature vector is associated with a `FatigueLabel` (0 = no fatigue, 1 = fatigue).
 -  **Parallel & Efficient**: Uses `Dask` to prevent RAM crashes during large-scale windowed processing.
 - 📂 **Input Data**:
   - Cleaned signals (Kalman filtered `.parquet`).
