@@ -55,7 +55,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
   - **(Optional)** ACC → Variance & RMS of body motion.
 
 - 🧠 **Fatigue Classification Ready**: Each feature vector is associated with a `FatigueLabel` (0 = no fatigue, 1 = fatigue).
-- 🚀 **Parallel & Efficient**: Uses `Dask` to prevent RAM crashes during large-scale windowed processing.
+-  **Parallel & Efficient**: Uses `Dask` to prevent RAM crashes during large-scale windowed processing.
 - 📂 **Input Data**:
   - Cleaned signals (Kalman filtered `.parquet`).
   - Demographics & fatigue labels (`.csv`).
