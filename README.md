@@ -47,7 +47,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
 
 ## 📌 Project Highlights
 
-- ✅ **Signal Types**: ECG (Electrocardiogram), PPG (Photoplethysmogram), PCG (Phonocardiogram), Accelerometer (az-axis).
+-  **Signal Types**: ECG (Electrocardiogram), PPG (Photoplethysmogram), PCG (Phonocardiogram), Accelerometer (az-axis).
 - ⚙️ **Features Extracted**:
   - **ECG** → HR (Heart Rate), RMSSD, SDNN, LF/HF ratio.
   - **PPG** → SpO₂ mean & std across 4 channels (carotid & brachial).
