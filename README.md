@@ -59,7 +59,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
 - 📂 **Input Data**:
   - Cleaned signals (Kalman filtered `.parquet`).
   - Demographics & fatigue labels (`.csv`).
-- 🧪 **Output**: Feature table (`df_features`) per 5-second window for use in ML models (e.g., LSTM, Random Forests).
+-  **Output**: Feature table (`df_features`) per 5-second window for use in ML models (e.g., LSTM, Random Forests).
 
 ## 📊 Example Use Case
 
