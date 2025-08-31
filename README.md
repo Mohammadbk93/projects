@@ -56,7 +56,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
 
 -  **Fatigue Classification Ready**: Each feature vector is associated with a `FatigueLabel` (0 = no fatigue, 1 = fatigue).
 -  **Parallel & Efficient**: Uses `Dask` to prevent RAM crashes during large-scale windowed processing.
-- 📂 **Input Data**:
+-  **Input Data**:
   - Cleaned signals (Kalman filtered `.parquet`).
   - Demographics & fatigue labels (`.csv`).
 -  **Output**: Feature table (`df_features`) per 5-second window for use in ML models (e.g., LSTM, Random Forests).
