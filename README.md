@@ -72,7 +72,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
 ____________________________________________________________________________________________________________
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
-# 🦠 COVID-19 Data Analysis & Monte Carlo Integration  
+#  COVID-19 Data Analysis & Monte Carlo Integration  
 
 ##  Project Overview  
 This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Python, Pandas, NumPy, Dask, and PySpark**. It includes:  
