@@ -20,7 +20,7 @@ ________________________________________________________________________________
 ##  Overview  
 This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal** vs **Myocardial Infarction (MI)** conditions using **Machine Learning (Random Forest)** and **Deep Learning (LSTM)**. The dataset comes from the **UCI Machine Learning Repository**.  
 
-## 📊 Dataset  
+##  Dataset  
 - **Source**: [UCI Machine Learning Repository]  
 - **Type**: Time-series PPG signals  
 - **Features**: 2000 signal amplitudes per sample  
