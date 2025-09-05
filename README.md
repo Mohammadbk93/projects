@@ -61,7 +61,7 @@ This project implements a scalable and memory-efficient pipeline for extracting 
   - Demographics & fatigue labels (`.csv`).
 -  **Output**: Feature table (`df_features`) per 5-second window for use in ML models (e.g., LSTM, Random Forests).
 
-## 📊 Example Use Case
+##  Example Use Case
 
 - Monitor athlete fatigue in real time using wearable devices.
 - Generate ML-ready feature sets from millions of signal samples.
