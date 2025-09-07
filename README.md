@@ -110,7 +110,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
    - Imported the dataset using **Pandas** and handled missing values.  
    - Filtered country-specific data for targeted analysis.  
 
-2. **Exploratory Data Analysis (EDA)** 📊  
+2. **Exploratory Data Analysis (EDA)**   
    - Identified **worst-case infection days** and **country-wise trends**.  
    - Analyzed seasonal patterns in case spikes.  
 
