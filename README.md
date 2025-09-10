@@ -83,7 +83,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 ---
 
 ##  Features  
-✅ **Data Preprocessing**: Cleaning and transforming large COVID-19 datasets.  
+ **Data Preprocessing**: Cleaning and transforming large COVID-19 datasets.  
 ✅ **Exploratory Data Analysis (EDA)**: Identifying trends and patterns in case growth.  
 ✅ **Monte Carlo Integration**: Estimating integrals using **random sampling techniques**.  
 ✅ **Parallel Computing**: Using **Dask & PySpark** for scalable and faster computations.  
