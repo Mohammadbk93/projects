@@ -68,7 +68,6 @@ This project implements a scalable and memory-efficient pipeline for extracting 
 - Extendable to rehabilitation, ergonomics, or telemedicine applications.
 
 
-
 ____________________________________________________________________________________________________________
 ## Data analysis
 ### [COVID_Pandas_Numpy](https://github.com/Mohammadbk93/projects/blob/main/COVID%20Pandas%2C%20Numpy.ipynb)
