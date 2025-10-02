@@ -190,7 +190,6 @@ By comparing product names, brands, and prices, the system identifies items that
 - Plots showing similarity and price distributions
 
 This project was developed for an assignment involving product comparison and data analysis.
-
 ____________________________________________________________________________________________________________
 
 ### [Random Number Generator](https://github.com/Mohammadbk93/projects/blob/main/Project%20SHA256%20%26%20RSA-Copy1.ipynb)
