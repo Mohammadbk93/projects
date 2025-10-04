@@ -13,7 +13,6 @@ The CNN-LSTM model achieved a high accuracy of 94.78%, demonstrating its effecti
   <img src="https://github.com/user-attachments/assets/31470d3e-77f8-46f7-968f-427aeb2bbd6e" width="300" height="300">
   <img src="https://github.com/user-attachments/assets/76480683-5005-45ef-93af-6762c175d6ad" width="300" height="300">
 </p>
-
 ____________________________________________________________________________________________________________
 ### [Biomedical Signal Processing: PPG-Based Heart Condition Detection](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)  
 
