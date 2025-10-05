@@ -1,4 +1,3 @@
-
 ## These are my projects:
 
 ### [Master's Thesis: ML and DL in MoCap](https://github.com/Mohammadbk93/projects/blob/main/PPG_Signal_Processing.ipynb)
