@@ -40,7 +40,6 @@ ________________________________________________________________________________
 ### [Real-Time Athlete Fatigue Detection & Recovery Monitoring](https://github.com/Mohammadbk93/projects/blob/main/athlete_performance_data_ipynb_.ipynb)  
 
 #  Biomedical Signal Feature Extraction Pipeline (Dask + NeuroKit2)
-
 This project implements a scalable and memory-efficient pipeline for extracting physiological features from multi-modal biosignals—**ECG, PPG, PCG, and Accelerometer (ACC)**—collected during fatigue monitoring experiments. The pipeline leverages **Dask** for parallel processing and **NeuroKit2** for biomedical signal analysis, enabling real-time or large-scale offline feature generation.
 
 ## 📌 Project Highlights
