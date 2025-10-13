@@ -162,7 +162,6 @@ By comparing product names, brands, and prices, the system identifies items that
 
 <img width="482" height="162" alt="Matching product" src="https://github.com/user-attachments/assets/856dff6b-ddc3-48ac-8b0c-fbee8d2727c0" />
 
-
 ## Objective
 
 - Match products from two sources based on name similarity
