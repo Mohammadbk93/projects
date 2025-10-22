@@ -30,7 +30,7 @@ This project analyzes **Photoplethysmogram (PPG) signals** to classify **Normal*
  **Signal Processing**: Butterworth filter for noise removal  
  **Feature Engineering**: Extracted Mean, StdDev, Min, Max, Skewness, Kurtosis  
  **Machine Learning**: **Random Forest** 
-✅ **Deep Learning**: **Bi-LSTM with Regularization** 
+ **Deep Learning**: **Bi-LSTM with Regularization** 
 
 ## 📌 Results & Insights  
 - **Random Forest slightly outperformed LSTM** in accuracy.  
