@@ -170,7 +170,6 @@ By comparing product names, brands, and prices, the system identifies items that
 - Export results for further review
 
 ## Key Steps
-
 1. Clean and preprocess product names
 2. Compute similarity scores (e.g., fuzzy matching)
 3. Filter matches above a similarity threshold (e.g., 70%)
