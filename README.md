@@ -110,7 +110,7 @@ This project analyzes a **large-scale COVID-19 dataset (327K+ rows)** using **Py
 3. **Monte Carlo Integration**   
    - Used **random sampling techniques** to estimate function integrals.  
    - Parallelized computations using **Dask & PySpark** for scalability.  
-
+   
 4. **Visualization & Insights**   
    - Created **scatter plots** to visualize Monte Carlo estimations.  
    - Plotted **COVID-19 case distribution trends** over time.  
