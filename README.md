@@ -191,6 +191,45 @@ This project is an AI-powered RAG (Retrieval-Augmented Generation) system built 
 It allows you to upload a PDF document to Google Drive and ask questions about its content.
 The workflow retrieves relevant text from the document using a vector database and generates accurate answers with OpenAI GPT-4o-mini.
 
+📌How This Project Helps People and Organizations
+
+This AI Document Q&A Agent can be extremely useful for anyone who works with large documents, manuals, reports, or internal files.
+Instead of searching manually through long PDFs, users can simply ask questions and get accurate answers instantly.
+
+📌Who Can Benefit
+
+- Students & Researchers — quickly extract important information from academic papers
+
+- Teams & Organizations — make internal documents searchable and interactive
+
+- Customer Support — turn product manuals into smart, conversational knowledge bases
+
+- Managers & Executives — access key insights from long reports without reading everything
+
+- Educators — create instant Q&A systems for course materials
+
+- Engineers / Developers — build custom chatbots for private documents
+
+📌How It Helps
+
+- Instant Information Retrieval
+No need to scroll through a PDF — ask a question and get the exact answer.
+
+- Automated Knowledge Extraction
+Converts any document into a searchable knowledge base using AI.
+
+- Context-Aware Answers
+Uses the uploaded document as the only source, ensuring grounded and accurate responses.
+
+- Saves Time
+Reduces hours of manual reading, searching, and summarizing.
+
+- Private & Secure
+Your data stays inside your own n8n workflow and vector database.
+
+- Increases Productivity
+Teams can make faster decisions by retrieving essential information instantly.
+
 📌Key Steps:
 
 - Load a PDF file stored in Google Drive
