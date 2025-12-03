@@ -185,6 +185,38 @@ This project was developed for an assignment involving product comparison and da
 ____________________________________________________________________________________________________________
 ## AI Automation
 
+##  Project Overview  AI Document Q&A Agent (n8n)
+
+This project is an AI-powered RAG (Retrieval-Augmented Generation) system built in n8n.
+It allows you to upload a PDF document to Google Drive and ask questions about its content.
+The workflow retrieves relevant text from the document using a vector database and generates accurate answers with OpenAI GPT-4o-mini.
+
+📌Key Steps:
+
+- Load a PDF file stored in Google Drive
+
+- Split the document into text chunks
+
+- Convert chunks into embeddings using OpenAI
+
+- Store embeddings in a Pinecone vector database
+
+- Retrieve the most relevant chunks based on user queries
+
+- Generate context-aware answers using GPT-4o-mini
+
+- Interact with the agent using n8n’s built-in chat interface
+
+📌Output
+
+- Accurate answers grounded in the uploaded PDF
+
+- Fast, semantic search over document content
+
+- Fully automated workflow for document processing
+
+- Real-time Q&A capability through n8n
+
 <img width="1079" height="619" alt="image" src="https://github.com/user-attachments/assets/04e3f96b-8a85-46f9-98f1-e26d8d4d453a" />
 ____________________________________________________________________________________________________________
 
