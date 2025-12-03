@@ -217,10 +217,11 @@ The workflow retrieves relevant text from the document using a vector database a
 
 - Real-time Q&A capability through n8n
 
-<img width="1079" height="619" alt="image" src="https://github.com/user-attachments/assets/04e3f96b-8a85-46f9-98f1-e26d8d4d453a" />
-<img width="761" height="491" alt="image" src="https://github.com/user-attachments/assets/008033d4-9564-4320-be20-11cc44a90a8f" />
-<img width="1079" height="652" alt="image" src="https://github.com/user-attachments/assets/a3e96b88-0e91-4226-a72f-2e8f4056303c" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/04e3f96b-8a85-46f9-98f1-e26d8d4d453a" width="300" />
+  <img src="https://github.com/user-attachments/assets/008033d4-9564-4320-be20-11cc44a90a8f" width="300" />
+  <img src="https://github.com/user-attachments/assets/a3e96b88-0e91-4226-a72f-2e8f4056303c" width="300" />
+</p>
 
 ____________________________________________________________________________________________________________
 
