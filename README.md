@@ -183,6 +183,11 @@ By comparing product names, brands, and prices, the system identifies items that
 
 This project was developed for an assignment involving product comparison and data analysis.
 ____________________________________________________________________________________________________________
+## AI Automation
+
+<img width="1079" height="619" alt="image" src="https://github.com/user-attachments/assets/04e3f96b-8a85-46f9-98f1-e26d8d4d453a" />
+____________________________________________________________________________________________________________
+
 ### [Random Number Generator](https://github.com/Mohammadbk93/projects/blob/main/Project%20SHA256%20%26%20RSA-Copy1.ipynb)
 ### [Caffe machine](https://github.com/Mohammadbk93/projects/blob/main/Coffe%20machine/main.py)
 ### [Tip Calculator](https://github.com/Mohammadbk93/projects/blob/main/Tip%20Calculator%20Project%20-%20Copy.py)
