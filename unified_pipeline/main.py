@@ -17,6 +17,9 @@ def main():
     # Output directory
     parser.add_argument("--output-dir", default=os.getenv("OUTPUT_DIR", "output"))
     
+    # Step selection
+    parser.add_argument("--step", choices=["all", "clients", "sku", "articles", "unify"], default="all", help="Which step to run")
+
     args = parser.parse_args()
     
     # Ensure output directory exists
@@ -29,34 +32,48 @@ def main():
     final_output_path = os.path.join(args.output_dir, "unified_output.csv")
     
     # Step 1: Client Segmentation
-    try:
-        process_client_segmentation(args.client_file, client_segmented_path)
-    except Exception as e:
-        print(f"❌ Step 1 failed: {e}")
-        return
+    if args.step in ["all", "clients"]:
+        try:
+            process_client_segmentation(args.client_file, client_segmented_path)
+        except Exception as e:
+            print(f"❌ Step 1 (Clients) failed: {e}")
+            return
 
     # Step 2: SKU Mapping
-    try:
-        process_sku_mapping(args.sales_file, args.catalog_file, sku_mapped_path)
-    except Exception as e:
-        print(f"❌ Step 2 failed: {e}")
-        return
+    if args.step in ["all", "sku"]:
+        try:
+            process_sku_mapping(args.sales_file, args.catalog_file, sku_mapped_path)
+        except Exception as e:
+            print(f"❌ Step 2 (SKU) failed: {e}")
+            return
 
     # Step 3: Article Segmentation
-    try:
-        process_article_segmentation(sku_mapped_path, args.families_file, articles_segmented_path)
-    except Exception as e:
-        print(f"❌ Step 3 failed: {e}")
-        return
+    if args.step in ["all", "articles"]:
+        # Ensure input exists if running standalone
+        if not os.path.exists(sku_mapped_path) and args.step == "articles":
+            print(f"❌ Missing input: {sku_mapped_path}. Run --step sku first.")
+            return
+
+        try:
+            process_article_segmentation(sku_mapped_path, args.families_file, articles_segmented_path)
+        except Exception as e:
+            print(f"❌ Step 3 (Articles) failed: {e}")
+            return
 
     # Step 4: Unification
-    try:
-        process_unification(client_segmented_path, articles_segmented_path, final_output_path)
-    except Exception as e:
-        print(f"❌ Step 4 failed: {e}")
-        return
+    if args.step in ["all", "unify"]:
+        # Ensure inputs exist
+        if (not os.path.exists(client_segmented_path) or not os.path.exists(articles_segmented_path)) and args.step == "unify":
+             print(f"❌ Missing inputs. Ensure client and article steps are complete.")
+             return
+
+        try:
+            process_unification(client_segmented_path, articles_segmented_path, final_output_path)
+        except Exception as e:
+            print(f"❌ Step 4 (Unification) failed: {e}")
+            return
         
-    print("✨ Pipeline completed successfully!")
+    print(f"✨ Selected steps ({args.step}) completed successfully!")
 
 if __name__ == "__main__":
     main()
